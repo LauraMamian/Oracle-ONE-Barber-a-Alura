@@ -149,8 +149,9 @@ h2 {
 .tabla {
     width: 80%;
     font-size: 1rem;
-    margin: 0 1rem;
     margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .tabla ul {
@@ -332,6 +333,14 @@ th {
 
     .header .nav .li {
         margin: 0 1em;
+    }
+
+    .banner {
+        width: 40%;
+    }
+
+    .tabla {
+        display: inline-flex;
     }
 }
 
