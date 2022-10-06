@@ -55,6 +55,7 @@ body {
 }
 
 nav a {
+    display: block;
     text-transform: uppercase;
     color: black;
     font-weight: bold;
@@ -253,9 +254,17 @@ select {
 .boton {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+
+.horarios table {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .enviar {
@@ -334,6 +343,7 @@ th {
 
     .header .nav .li {
         margin: 0 1em;
+        display: block;
     }
 
     .banner {
@@ -346,6 +356,10 @@ th {
 
     p {
         font-size: 1.2rem;
+    }
+
+    .mapa iframe {
+        width: 80%;
     }
 
     .tabla {
@@ -362,6 +376,39 @@ th {
     .ver {
         width: 80%;
         margin: 2rem 0;
+    }
+
+    .productos {
+        width: 80%;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .img-producto {
+        width: 100%;
+        height: 250px;
+    }
+
+    .datos {
+        width: 60%;
+    }
+
+    .boton {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .horarios table {
+        margin: 0 auto;
+        width: 60%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .foot {
+        width: 15%;
     }
 }
 
@@ -395,12 +442,12 @@ th {
         width: 30%;
     }
 
-    p {
-        font-size: 1.2rem;
-    }
-
     .titulo-principal {
         font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.4rem;
     }
 
     .tabla {
@@ -410,8 +457,49 @@ th {
         margin: 0 auto;
     }
 
+    .items {
+        font-size: 1.4rem;
+    }
+
+    .mapa iframe {
+        width: 60%;
+    }
+
     .ver {
-        width: 80%;
+        width: 60%;
         margin: 2rem 0;
+    }
+
+    .productos {
+        width: 60%;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .img-producto {
+        width: 100%;
+        height: 250px;
+    }
+
+    .datos {
+        width: 40%;
+    }
+
+    .boton {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .horarios table {
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .foot {
+        width: 9%;
     }
 }
