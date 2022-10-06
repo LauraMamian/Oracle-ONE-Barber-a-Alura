@@ -29,7 +29,7 @@ Este proyecto consiste en crear el sitio web de la "Barbería Alura", el cual es
 
 - index.html
 - contacto.html
-- productos.html
+- servicios.html
 
 También se aplica el *header* y el *footer* en cada página, se añaden imágenes y un vídeo para hacer la página más profesional.
 
