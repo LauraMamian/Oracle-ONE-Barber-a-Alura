@@ -118,7 +118,8 @@ h2 {
 
 .mapa,
 .diferenciales,
-.video, .formulario {
+.video,
+.formulario {
     font-size: 1.3rem;
     width: 100%;
     display: flex;
@@ -245,7 +246,7 @@ select {
     width: 100%;
     margin: 0 auto;
     font-size: 1rem;
-    margin-top: 1rem ;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -339,8 +340,28 @@ th {
         width: 40%;
     }
 
+    .titulo-principal {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
     .tabla {
-        display: inline-flex;
+        width: 60%;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .items {
+        font-size: 1.2rem;
+    }
+
+    .ver {
+        width: 80%;
+        margin: 2rem 0;
     }
 }
 
@@ -368,5 +389,29 @@ th {
 
     .header .nav .li {
         margin: 0 1em;
+    }
+
+    .banner {
+        width: 30%;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .titulo-principal {
+        font-size: 2rem;
+    }
+
+    .tabla {
+        width: 60%;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .ver {
+        width: 80%;
+        margin: 2rem 0;
     }
 }
